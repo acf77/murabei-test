@@ -15,3 +15,9 @@ Go to the folder `02__frontend` and then `codes`. After entering the `codes` fol
 ### Backend
 
 Go to the folder `01__backend` and then `codes`. After entering the `codes` folder, run `pip install -r requirements.txt` to install all the dependencies.
+
+## Usage
+
+Start your Docker daemon.
+
+Enter the `docker-compose` folder and run `docker-compose up`. This will start the backend and frontend servers.
