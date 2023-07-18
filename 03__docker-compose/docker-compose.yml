@@ -16,9 +16,9 @@ services:
       context: ../01__backend/codes/
     volumes:
       - ../01__backend/codes/:/app
+      - ./data/db.sqlite:/app/db.sqlite
     command: flask run --host=0.0.0.0
     ports:
       - "8000:5000"
     environment:
       NODE_ENV: development
-
