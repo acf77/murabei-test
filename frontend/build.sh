@@ -1,2 +1,2 @@
 source version
-docker build -t desafio-murabei-frontend:latest .
+docker build -t frontend:latest .
