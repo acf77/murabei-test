@@ -1,17 +1,10 @@
 version: "3.8"
 services:
-  # db:
-  #   image: postgres:13
-  #   # volumes:
-  #   #   - ./data/db:/var/lib/postgresql/data
-  #   environment:
-  #     - POSTGRES_USER=postgres
-  #     - POSTGRES_PASSWORD=postgres
-  #     - POSTGRES_DB=postgres
-  #   ports:
-  #     - "5432:5432"
-
   backend:
-    image: backend:latest
+    image: backend:latest # nomeie a imagem da forma que desejar
     ports:
       - "5000:5000"
+  frontend:
+    image: frontend:latest # nomeie a imagem da forma que desejar
+    ports:
+      - "3000:3000"
