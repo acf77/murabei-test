@@ -47,16 +47,17 @@ Aqui vao os pontos que sera avaliados no teste:
 - O FE deve possuir uma tela de criacao de livros (1 ponto)
 - O FE deve possuir uma funcao de de deletar livros (1 ponto)
 - As telas devem ser feitas usando componentes da biblioteca [shadcn/ui](https://ui.shadcn.com/) (1 ponto)
+- O Frontend deve estar em Typescript (2 pontos)
 
-**Total: 7 pontos**
+**Total: 9 pontos**
 
 **_Pontos extras_**
 
-- Fazer o deploy publico da aplicacao em qualquer servico que aceite as imagens docker (1 ponto)
-- Adicionar testes (unitarios ou end-to-end) (1 pontos)
-- Uso do Typescript (1 ponto)
+- Fazer o deploy publico da aplicacao em qualquer servico que aceite as imagens docker (2 pontos)
+- Adicionar testes (unitarios ou end-to-end) (2 pontos)
 
-**Total: 3 pontos**
+
+**Total: 4 pontos**
 
 ### Criterios tecnicos
 
